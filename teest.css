@@ -1,0 +1,247 @@
+.header {
+    background-color: #0875fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+
+}
+
+.logo {
+    width: 150px;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-links a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.header-links a:hover {
+    color: #8ff5ecf5;
+}
+
+.header-links button {
+    background-color: #58fdfd;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: white;
+    border: none;
+}
+
+.header-links button:hover {
+    color: #1a6edb;
+}
+
+.landing-page {
+    background-color: #0875fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+
+.welcome {
+    width: 650px;
+}
+
+.search {
+    padding: 50px 0 0 0;
+}
+
+.search input {
+    border: none;
+    border-radius: 15px;
+    padding: 2px 10px;
+    outline: none;
+    height: 28px;
+}
+
+.search button {
+    border-radius: 15px;
+    border: none;
+    background-color: #58fdfd;
+    color: white;
+    height: 32px;
+    position: absolute;
+    left: 300px;
+    padding: 0 10px;
+}
+
+.search button:hover {
+    color: #1a6edb;
+}
+
+.img-0 img {
+    border-radius: 15px;
+    width: 350px;
+}
+
+.games {
+    padding: 25px 150px;
+}
+
+.trending-games {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.games h4 {
+    color: #1a6edb;
+    margin-top: 1px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.trending-games button {
+    border: none;
+    border-radius: 15px;
+    background-color: #58fdfd;
+    color: white;
+    padding: 5px 15px;
+    height: 30px;
+}
+
+.trending-games button:hover {
+    color: #1a6edb;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 15px;
+    align-items: center;
+
+}
+
+.card {
+    background-color: #b1a7a781;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.card-info img {
+    width: 50px;
+
+
+}
+
+.sora {
+    width: 300px;
+    border-radius: 15px 15px 0 0;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.trending-botoom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.botoom {
+    margin-top: 60px;
+    padding: 40px 150px 40px 150px;
+    background-color: #b1a7a781;
+    border-radius: 70px 70px 70px 70px;
+}
+
+.botoom h4 {
+    color: #1a6edb;
+    margin-top: 1px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.botoom button {
+    border: none;
+    color: white;
+    background-color: #58fdfd;
+    padding: 5px 15px;
+    border-radius: 15px;
+    height: 32px;
+}
+
+.botoom button:hover {
+    color: #1a6edb;
+}
+
+.info-top-imgs img {
+    border-radius: 15px;
+    width: 240px;
+}
+
+.text h5 {
+    color: #4c515a;
+}
+
+.info-top-imgs {
+    display: inline-block;
+    /* باش الصورة والنص يبقاو مع بعض */
+    text-align: center;
+    /* باش النص يجي وسط الصورة */
+}
+
+.top-imgs {
+    display: flex;
+    gap: 35px;
+}
+
+.walo {
+    padding: 75px 0 0 0;
+    text-align: center;
+}
+
+.walo h4 {
+    color: #1a6edb;
+    margin-top: 1px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.bjoj {
+    background-color: #0875fa;
+    border-radius: 15px 15px 0 0;
+    height: 30px;
+    padding: 0 0 45px 0;
+    text-align: center;
+}
+
+.kolchi {
+    display: flex;
+    padding: 40px 150px 350px 150px;
+    gap: 40px;
+}
+
+.bjoj h5 {
+    color: white;
+}
+
+.bjoj img {
+    border-radius: 15px 15px;
+    height: 280px;
+}
+
+.sf {
+    background-color: #0875fa;
+    padding: 25px 0 25px 0;
+    text-align: center;
+    color: white;
+    border-radius: 70px 70px 0 0;
+}
